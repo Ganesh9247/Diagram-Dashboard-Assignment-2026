@@ -1,3 +1,154 @@
+# React Diagram Dashboard
+
+## 📌 Project Overview
+
+The **React Diagram Dashboard** is a simple frontend application that allows users to upload a diagram image and interact with it through zoom controls and a components sidebar.
+This project demonstrates **React fundamentals, component structure, state management, and UI design**.
+
+---
+
+## 🚀 Features
+
+* Upload a diagram image (PNG / JPG)
+* Preview uploaded image
+* Zoom In / Zoom Out / Reset controls
+* Components sidebar with selectable items
+* Highlight selected component on the diagram
+* Clean and responsive dashboard layout
+
+---
+
+## 🛠 Technologies Used
+
+* **React**
+* **React Hooks (useState, useEffect)**
+* **react-zoom-pan-pinch**
+* **CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+src
+├── components
+│   ├── UploadBox
+│   │   └── UploadBox.js
+│   ├── DiagramViewer
+│   │   └── DiagramViewer.js
+│   └── ComponentList
+│       └── ComponentList.js
+│
+├── pages
+│   └── Dashboard
+│       └── Dashboard.js
+│
+├── services
+│   └── api.js
+│
+├── styles
+│   └── dashboard.css
+│
+├── App.js
+└── index.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/yourusername/diagram-dashboard.git
+```
+
+Navigate to the project folder:
+
+```
+cd diagram-dashboard
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm start
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Application Layout
+
+```
+----------------------------------------------
+ Upload Diagram
+----------------------------------------------
+
+┌───────────────────────────────┬─────────────┐
+│                               │ Components  │
+│        Diagram Viewer         │             │
+│                               │  Resistor   │
+│                               │  Capacitor  │
+│                               │  Diode      │
+│                               │  Transistor │
+│                               │             │
+└───────────────────────────────┴─────────────┘
+```
+
+---
+
+## 📈 Future Improvements
+
+* Auto-detect circuit components using AI/ML
+* Interactive diagram elements
+* Drag-and-drop image upload
+* Component tooltips and annotations
+
+---
+
+## 👨‍💻 Author
+
+**Chillapalli Ganesh Prasad**
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
