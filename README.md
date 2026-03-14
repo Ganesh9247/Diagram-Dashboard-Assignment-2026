@@ -60,7 +60,7 @@ src
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/diagram-dashboard.git
+git clone https://github.com/Ganesh9247/Diagram-Dashboard-Assignment-2026
 ```
 
 Navigate to the project folder:
